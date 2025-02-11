@@ -43,6 +43,7 @@ body{
     gap: 40px;
 }
 
+
 .presentacion-contenido-titulo{
     font-family: "Krona One",sans-serif;
     font-size: 36px;
@@ -56,6 +57,23 @@ body{
 .presentacion-contenido-texto{
     font-family: "Montserrat", serif;
     font-size: 24px;
+}
+
+.presentacion-contenido-tabla{
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+}
+
+.presentacion-contenido-item{
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+}
+
+.presentacion-contenido-link{
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    color: #22D4FD;
+    text-decoration: none;
 }
 
 .presentacion-enlaces{
