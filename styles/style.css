@@ -59,14 +59,9 @@ body{
     font-size: 24px;
 }
 
-.presentacion-contenido-tabla{
-    font-family: "Montserrat", serif;
-    font-size: 24px;
-}
-
-.presentacion-contenido-item{
-    font-family: "Montserrat", serif;
-    font-size: 24px;
+.presentacion-contenido-texto a{
+    text-decoration: none;
+    color: #22D4FD;
 }
 
 .presentacion-contenido-link{

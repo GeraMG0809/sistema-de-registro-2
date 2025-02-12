@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Curriculum"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sistema-de-registro2"
+	}
+}
