@@ -34,7 +34,7 @@ body{
 
 .header-menu-link{
     font-family: var(--fuente-Montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-terceario);
     text-decoration: none;
@@ -45,10 +45,11 @@ body{
     display: flex;
     align-items: center;
     justify-content:space-between;
+    gap: 82px;
 }
 
 .presentacion-contenido{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -57,7 +58,7 @@ body{
 
 .presentacion-contenido-titulo{
     font-family: var(--fuente-Kroona);
-    font-size: 36px;
+    font-size: 2.25rem;
 
 }
 
@@ -67,7 +68,7 @@ body{
 
 .presentacion-contenido-texto{
     font-family: var(--fuente-Montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .presentacion-contenido-texto a{
@@ -77,7 +78,7 @@ body{
 
 .presentacion-contenido-link{
     font-family: var(--fuente-Montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--color-terceario);
     text-decoration: none;
 }
@@ -92,16 +93,16 @@ body{
 
 .presentacion-enlaces-subtitulo{
     font-family: var(--fuente-Kroona);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 
 }
 
 .presentacion-enlaces-link{
-    width: 378px;   
+    width: 50%;   
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -117,12 +118,35 @@ body{
     background-color: var(--color-hover);
 }
 
+.presentacion-imagen{
+    width: 50%;
+}
+
 .footer{
     background-color: var(--color-terceario);
     padding: 24px;
     color: var(--color-primario);
     text-align: center;
     font-family: var(--fuente-Montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 1200px){
+    .header{
+        padding: 10%;   
+    }
+
+    .header-menu{
+        justify-content: center;
+    }
+
+    .presentacion{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion-contenido{
+        width: auto;
+    }
 }
